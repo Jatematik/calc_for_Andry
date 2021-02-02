@@ -1,0 +1,6 @@
+.active {
+  text-decoration: underline;
+}
+input[type='radio'] {
+  display: none;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Калькулятор для Андрюхи</title>
+</head>
+<body>
+    <div class="calculator" id="calculator">
+        <h1 class="title">Калькулятор стоимости тонировки авто</h1>
+        <div class="choice">
+            <form action="" class="form">
+            <h2 class="title">Выберите класс авто</h2>
+                <div class="choice-group">
+                    <input type="radio" id="small" name="class">
+                    <label for="small">Малый класс</label>
+                </div>
+                <div class="choice-group">
+                    <input type="radio" id="middle" name="class">
+                    <label for="middle">Средний класс</label>
+                </div>
+                <div class="choice-group">
+                    <input type="radio" id="last" name="class">
+                    <label for="last">Кроссовер</label>
+                </div>
+            </form>
+        </div>
+        <div class="mirror">
+            <h2 class="title">Выберите стекло</h2>
+            <div class="mirror-group">
+                <input type="checkbox" class="mirror-input" id="front">
+                <span>Лобовое стекло</span>
+            </div>
+            <div class="mirror-group">
+                <input type="checkbox" class="mirror-input" id="back">
+                <span>Заднее стекло</span>
+            </div>
+        </div>
+        <input id="input-result" type="text" disabled>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
